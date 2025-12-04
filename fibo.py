@@ -15,7 +15,7 @@ def fib_recursive(n: int) -> int:
 
 	if n < 2:
 		return n
-	return fib_recursive(n - 1) + fib_recursive(n - 2)
+	return fib_recursive(n) + fib_recursive(n - 3)
 
 
 def fib_iterative(n: int) -> int:
